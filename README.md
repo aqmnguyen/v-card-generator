@@ -25,13 +25,15 @@ country=US
 company=aqmnguyen
 fax=98765432199
 tel=12345678911
-jtitle=Job Title
+jtitle=Job%20Title
 wurl=http%3A%2F%2Fwww.worksite.co.uk
 purl=http%3A%2F%2Fwww.personalsite.co.uk
 ```
 
 # Example:
-`localhost:3000?lname=Nguyen&fname=Michael&title=Mr&email=aqmnguyen%40gmail.com&street=123%20Sesame Street&city=New%20York&state=New%20York&zip=10001&country=US&company=aqmnguyen&fax=98765432199&tel=12345678911&jtitle=Chief%20Alien&purl=http%3A%2F%2Fwww.personalsite.co.uk&wurl=http%3A%2F%2Fwww.worksite.co.uk`
+```
+localhost:3000?lname=Nguyen&fname=Michael&title=Mr&email=aqmnguyen%40gmail.com&street=123%20Sesame Street&city=New%20York&state=New%20York&zip=10001&country=US&company=aqmnguyen&fax=98765432199&tel=12345678911&jtitle=Chief%20Alien&purl=http%3A%2F%2Fwww.personalsite.co.uk&wurl=http%3A%2F%2Fwww.worksite.co.uk
+```
 
 # V Card Raw
 ```
