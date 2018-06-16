@@ -6,7 +6,7 @@ const underscore 	= require('underscore');
 const template 			= underscore.template(fs.readFileSync('./vcf.template').toString());
 
 const port = process.env['PORT'] || 3000;
-const host = process.env['HOST'];
+const host = process.env['HOST'] || '';
 
 http.createServer(function(req, res) {
   
