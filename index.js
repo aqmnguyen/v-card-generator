@@ -3,7 +3,7 @@ const url	 				= require('url');
 const fs 					= require('fs');
 const underscore 	= require('underscore');
 
-const template 			= underscore.template(fs.readFileSync('./vcf.template').toString());
+const template 		= underscore.template(fs.readFileSync('./vcf.template').toString());
 
 const port = process.env['PORT'] || 3000;
 const host = process.env['HOST'] || '';
