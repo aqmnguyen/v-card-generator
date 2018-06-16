@@ -1,0 +1,11 @@
+BEGIN:VCARD
+N:<%= name %>
+ADR;DOM;PARCEL;HOME:<%= address %>
+EMAIL;INTERNET:<%= email %>
+ORG:<%= company %>
+TEL;FAX;WORK:<%= fax %>
+TEL;HOME:<%= tel %>
+TITLE:<%= jtitle %>
+URL;WORK:<%= wurl %>
+URL:<%= purl %>
+END:VCARD

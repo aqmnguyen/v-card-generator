@@ -1,0 +1,27 @@
+{
+  "name": "v-card-generator",
+  "version": "1.0.0",
+  "description": "Generate V Card based on passed params",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aqmnguyen/v-card-generator.git"
+  },
+  "keywords": [
+    "vcard",
+    "generator",
+    "contacts"
+  ],
+  "author": "Michael Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aqmnguyen/v-card-generator/issues"
+  },
+  "homepage": "https://github.com/aqmnguyen/v-card-generator#readme",
+  "dependencies": {
+    "underscore": "^1.9.1"
+  }
+}
